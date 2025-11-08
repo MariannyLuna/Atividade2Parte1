@@ -1,11 +1,11 @@
 # Atividade2Parte1
 
-##Oque é JSON? 
+## Oque é JSON? 
 
 > JSON ou JavaScript Object Notation é uma estrutura mais leve e compacta para trocaa de dados, sendo bem mais fácil para humanos escreverem pois é baseado no padrão de linguagem de programação usando um texto legível no formato atributo-valor.
 > Ele é completamente independente de linguagem, mas tem conversões para a maioria delas.
 
-##Porque o json se tornou popular para troca de dados
+## Porque o json se tornou popular para troca de dados
 entre aplicações.? 
 
 >Pela simplicidade e compatibilidade com a maioria das linguagens de programação, sendo as principais razões:
@@ -18,7 +18,7 @@ entre aplicações.?
 
 ## Qual a diferença entre JSON.stringify() e JSON.parse()?
 
-##JSON.stringify()
+## JSON.stringify()
 > Ele converte um objeto JS em uma string já formatada em JSON (serialização). ou seja é usado para enviar dados para uma API ou um arquivo. 
 
 ```
@@ -33,7 +33,7 @@ console.log(texto);
 
 ```
 
-##JSON.parse()
+## JSON.parse()
 > Converte uma string JSON em objeto JS (desserialização). É usado quando recebemos dados em formato de texto. 
 > 
 ```
@@ -47,9 +47,9 @@ console.log(pessoa.nome);
 Ana
 
 ```
-##Alguns códigos em JS com a string "JavaScript é baseada em ECMA Script" :
+## Alguns códigos em JS com a string "JavaScript é baseada em ECMA Script" :
 
->Verificando se tem a palavra "script";
+> Verificando se tem a palavra "script";
 
 ```
 
@@ -70,7 +70,7 @@ Encontrei a palavra "Script" na frase.
 
 ```
 
->Para remover a palavra "JavaScript" e gerar uma nova string;
+> Para remover a palavra "JavaScript" e gerar uma nova string;
 
 ```
 let frase = "JavaScript é baseada em ECMA Script";
@@ -91,7 +91,7 @@ if (posição > -1) {
 Frase sem "JavaScript": é baseada em ECMA Script
 
 ```
->Substituir a palavra "baseada" para "tem origem";
+> Substituir a palavra "baseada" para "tem origem";
 
 ```
 let frase = "JavaScript é baseada em ECMA Script";
@@ -113,11 +113,11 @@ if (posição > -1) {
 Frase com substituição: JavaScript é tem origem em ECMA Script
 
 ```
-##Qual a vantagem de usar ( ` ` ) em vez de concatenação? 
+## Qual a vantagem de usar ( ` ` ) em vez de concatenação? 
 
->Usar das ( ` ` ) é bem mais rápido, pratico e legivel do que usar a + da concatenação.
+> Usar das ( ` ` ) é bem mais rápido, pratico e legivel do que usar a + da concatenação.
 
-*Ex com concatenação:
+* Ex com concatenação:
 ```
 const nome = "Mary";
 const idade = 18;
@@ -129,7 +129,7 @@ console.log(frase);
 Meu nome é Mary e eu tenho 18 anos.
 
 ```
-*Ex com crases:
+* Ex com crases:
 
 ```
 const nome = "Mary";
