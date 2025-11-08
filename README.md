@@ -113,7 +113,7 @@ if (posição > -1) {
 Frase com substituição: JavaScript é tem origem em ECMA Script
 
 ```
-## Qual a vantagem de usar ( ` ` ) em vez de concatenação? 
+## Qual a vantagem de usar (`` ` ` ``) em vez de concatenação? 
 
 > Usar das ( ` ` ) é bem mais rápido, pratico e legivel do que usar a + da concatenação.
 
